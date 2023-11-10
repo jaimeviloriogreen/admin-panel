@@ -1,0 +1,25 @@
+{
+  "name": "vite",
+  "description": "Include Bootstrap's source Sass and individual JavaScript plugins with Vite.",
+  "version": "0.0.0",
+  "private": true,
+  "stackblitz": {
+    "startCommand": "npm start"
+  },
+  "type": "module",
+  "scripts": {
+    "start": "node src/app.js",
+    "server": "nodemon src/app.js"
+  },
+  "devDependencies": {
+    "nodemon": "^3.0.1",
+    "sass": "^1.54.8"
+  },
+  "dependencies": {
+    "apexcharts": "^3.37.0",
+    "bootstrap": "^5.2.3",
+    "express": "^4.18.2",
+    "hbs": "^4.2.0",
+    "jquery": "^3.6.3"
+  }
+}
